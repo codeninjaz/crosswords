@@ -5,13 +5,13 @@ const wordFilePath = path.join(__dirname, "./words.json");
 const letters = process.argv[2];
 const pattern = process.argv[3];
 
-function letterFrequency(l:string){
-    //get a letter frequency map to compare with words found
-    const alphabet = "abcdefghijklmnopqrstuvwxyzåäö";
-    for(let i:number=0;i<alphabet.length;i++){
-        const re = RegExp(alphabet.charAt[i],"gim").
-    }    
-}
+// function letterFrequency(l:string){
+//     //get a letter frequency map to compare with words found
+//     const alphabet = "abcdefghijklmnopqrstuvwxyzåäö";
+//     for(let i:number=0;i<alphabet.length;i++){
+//         const re = RegExp(alphabet.charAt[i],"gim").
+//     }    
+// }
 
 fs.readFile(wordFilePath, "utf8", (err, allWords) => {
   if (err) throw err;
