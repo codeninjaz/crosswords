@@ -104,6 +104,82 @@ const wordfeudWordMultipliers = [
     '----3-----3----'
 ];
 
+const wordfeudMultipliers = [
+    //Row 0
+    {x: 0, y: 0, wm: 1, lm: 3},
+    {x: 4, y: 0, wm: 3, lm: 1},
+    {x: 7, y: 0, wm: 1, lm: 2},
+    {x: 10, y: 0, wm: 3, lm: 1},
+    {x: 14, y: 0, wm: 1, lm: 3},
+    //Row 1
+    {x: 1, y: 1, wm: 1, lm: 2},
+    {x: 5, y: 1, wm: 1, lm: 3},
+    {x: 9, y: 1, wm: 1, lm: 3},
+    {x: 13, y: 1, wm: 1, lm: 2},
+    //Row 2
+    {x: 2, y: 2, wm: 2, lm: 1},
+    {x: 6, y: 2, wm: 1, lm: 2},
+    {x: 8, y: 2, wm: 1, lm: 2},
+    {x: 12, y: 2, wm: 2, lm: 1},
+    //Row 3
+    {x: 3, y: 3, wm: 1, lm: 3},
+    {x: 7, y: 3, wm: 2, lm: 3},
+    {x: 11, y: 3, wm: 1, lm: 3},
+    //Row 4
+    {x: 0, y: 4, wm: 3, lm: 1},
+    {x: 4, y: 4, wm: 2, lm: 1},
+    {x: 10, y: 4, wm: 2, lm: 1},
+    {x: 14, y: 4, wm: 3, lm: 1},
+    //Row 5
+    {x: 1, y: 5, wm: 1, lm: 3},
+    {x: 5, y: 5, wm: 1, lm: 3},
+    {x: 9, y: 5, wm: 1, lm: 3},
+    {x: 13, y: 5, wm: 1, lm: 3},
+    //Row 6
+    {x: 2, y: 6, wm: 1, lm: 2},
+    {x: 4, y: 6, wm: 1, lm: 2},
+    {x: 10, y: 6, wm: 1, lm: 2},
+    {x: 12, y: 6, wm: 1, lm: 2},
+    //Row 7
+    {x: 3, y: 7, wm: 2, lm: 1},
+    {x: 11, y: 7, wm: 2, lm: 1},
+    //Row 8
+    {x: 2, y: 8, wm: 1, lm: 2},
+    {x: 4, y: 8, wm: 1, lm: 2},
+    {x: 10, y: 8, wm: 1, lm: 2},
+    {x: 12, y: 8, wm: 1, lm: 2},
+    //Row 9
+    {x: 1, y: 9, wm: 1, lm: 3},
+    {x: 5, y: 9, wm: 1, lm: 3},
+    {x: 9, y: 9, wm: 1, lm: 3},
+    {x: 13, y: 9, wm: 1, lm: 3},
+    //Row 10
+    {x: 0, y: 10, wm: 3, lm: 1},
+    {x: 4, y: 10, wm: 2, lm: 1},
+    {x: 10, y: 10, wm: 2, lm: 1},
+    {x: 14, y: 10, wm: 3, lm: 1},
+    //Row 11
+    {x: 3, y: 11, wm: 1, lm: 3},
+    {x: 7, y: 11, wm: 2, lm: 3},
+    {x: 11, y: 11, wm: 1, lm: 3},
+    //Row 12
+    {x: 2, y: 12, wm: 2, lm: 1},
+    {x: 6, y: 12, wm: 1, lm: 2},
+    {x: 8, y: 12, wm: 1, lm: 2},
+    {x: 12, y: 12, wm: 2, lm: 1},
+    //Row 13
+    {x: 1, y: 13, wm: 1, lm: 2},
+    {x: 5, y: 13, wm: 1, lm: 3},
+    {x: 9, y: 13, wm: 1, lm: 3},
+    {x: 13, y: 13, wm: 1, lm: 2},
+    //Row 14
+    {x: 0, y: 14, wm: 1, lm: 3},
+    {x: 4, y: 14, wm: 3, lm: 1},
+    {x: 7, y: 14, wm: 1, lm: 2},
+    {x: 10, y: 14, wm: 3, lm: 1},
+    {x: 14, y: 14, wm: 1, lm: 3}
+];
+
 interface IFrequencyMap {
     alpha: string;
     count: number;
